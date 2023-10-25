@@ -1,0 +1,32 @@
+Name: Abid Jeem 
+
+randomNumbers:  Here,this function generates a unique random number within a specific range. 
+First, the function makes an empty list to hold random numbers. Then there is a while loop that continues until 
+the length of the result list equates to the number that has been passed (this can be any number you wish)
+The next line of code generates a random integer and stores it in "num". The variable "found" is then initialized as 
+a boolean variable set to False and this will be used to check whether the random number "num" is already in the list "result". 
+After this, we have a for-loop that iterates over result list and checks if the current loop variable is equal to an element 
+in the list "result" with each iteration. If it finds a match, then the code breaks out of the loop and sets found to True. 
+After the loop has finished, if found remains False then the random number is appended to the "result" list. This is how the code functions.
+This is an inefficient way to code because it is using nested loops which have a high time complexity (it has a longer runtime) and slows down the code heavily. 
+Furthermore, using for-loops to access a list is just an inefficient way to code. This function also fails to check the
+first element, resulting in inefficient duplicity checks. Finally, as the list becomes larger, the checks become slower and 
+less efficient. 
+
+randomIndex: The first thing that happens in this function is that it uses the concept of list comprehension to create
+a list of elements called "result" and populates this list with -1 until the range of indices are met. The second loop 
+that we see keeps assining random indicies to the variable index using the random.int() function. This loop continues as
+there is a nested while loop that ensure that random indices are assigned until it finds an unassigned index. After all these
+checks have finished, the function returns the final list named "result". This again is an inefficient way to code as it has 
+a high time complexity and if you pass a high value of 'n', the code will run extremely slowly. This function, much like
+randomNumbers is inefficient in checking duplicity as well. 
+
+randomShuffle: The randomShuffle() approach outperforms the previous two methods for several compelling reasons. This is evident in 
+Print statements that we see representing the time complexities corresponding to each function. Here, for my convenience, I created a swap function for a
+Cleaner code. Firstly, the randShuffle() function leverages a widely recognized shuffling algorithm that guarantees a genuinely random order, ensuring that every number has an equal opportunity to appear at any position within the list. 
+This not only aligns with best practices but also enhances the sense of randomness.Secondly, it excels in code elegance and readability. 
+Unlike the previous methods with their intricate loops and checks for duplicates, randomShuffle() simplifies the process, 
+making the code more straightforward to understand. This is particularly advantageous, especially for someone like me, 
+who values clean and intuitive code. Lastly, the cherry on top is the linear time complexity of the shuffle algorithm. 
+In simpler terms, as the list size (N) grows, randomShuffle() remains efficient. It gracefully scales with larger n values, 
+a stark contrast to the previous methods, which could struggle with performance as the input size increases.
