@@ -1,0 +1,19 @@
+Author: Abid Jeem
+Filename: maze.txt
+
+I believe when it comes to the choice between a stack and a queue, it depends on the type of maze it is traversing.
+If I'm aiming for a maze with numerous short and dead-end hallways where the goal state and the start state are 
+on the same level, a queue can be more efficient. On the other hand, if it is a maze with a few long dead-end branches, 
+a stack can be more efficient.
+
+This decision is similar to choosing between depth-first and breadth-first searching strategies.
+In terms of efficiency, I find the stack approach to be more efficient for maze solving. 
+When I set a count while testing the maze, the stack method consistently requires fewer attempts to solve the maze, 
+and it generally has lower space complexity. Its strength lies in backtracking and deep path exploration.
+
+It's worth noting that the queue approach may have higher space complexity, 
+but it can perform better when the start and goal states are on the same level in the search tree. 
+In such situations, the queue's memory-intensive approach can be faster.
+
+Therefore, I think there is no concrete answers to these questions and the implementation depends on the context, which is almost
+always the case for most computer science problems. 
