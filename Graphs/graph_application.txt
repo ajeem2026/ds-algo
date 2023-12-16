@@ -1,0 +1,13 @@
+Filename: graph_application.txt
+Author: Abid Jeem
+
+I was intrigued by the use of graph and graph-based algorithms in the field of biology, offering insights into complex biological systems and advancing scientific understanding.
+In ecology, algorithms like shortest path and network analysis are applied to model ecosystems. Here, vertices represent species, and edges denote interactions such as predation and symbiosis.
+Secondly, in molecular biology, graph algorithms are used to study protein-protein interaction networks. Vertices represent proteins, and edges are their interactions.
+Algorithms like clustering and network flow analysis assist in identifying key proteins and interaction pathways, crucial for understanding cellular processes and identifying drug targets.
+Genetic linkage and gene regulatory networks are graphically represented, with vertices as genes or genetic markers and edges as linkages.
+Algorithms like pathfinding and network topology analysis are vital for mapping genes associated with diseases, understanding genetic influences, and exploring regulatory mechanisms.
+The field of neuroscience utilizes graph theory to model the brain's intricate network of neurons and synapses.
+Here, graph algorithms help in mapping neural connectivity, analyzing network patterns, and studying the functional organization of the brain, which is essential in understanding brain functionality and the effects of neurological disorders.
+In conclusion, graph and graph-based algorithms have a myriad of applications in real-life problems. 
+The fact that it can deploy its effects on so many crucial fields under the vast sector of biological studies proves how it is one of those components of computer science that transcends the limitation of a singular line of study.
